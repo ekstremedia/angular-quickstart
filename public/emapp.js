@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "f3eefd3d1433f260eb00"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "0a1980fec5a188174f29"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -82461,7 +82461,7 @@
 
 
 	// module
-	exports.push([module.id, ".welcome {\n  color: green;\n  font-size: 1.5em;\n}\n\n.nav-link {\n  float: right;\n  margin-top: 50px;\n  background: #ccc;\n  padding: 5px;\n}\n\n.over {\n  padding: 20px;\n  background: rgba(22, 0, 0, 0.1);\n}\n", ""]);
+	exports.push([module.id, ".welcome {\n  color: green;\n  font-size: 1.5em;\n}\n\n.view.ng-enter {\n  -webkit-animation: scaleUp 0.5s both  ease-in;\n          animation: scaleUp 0.5s both  ease-in;\n  z-index: 8888;\n}\n\n.view.ng-leave {\n  -webkit-animation: slideOutLeft 0.5s both ease-in;\n          animation: slideOutLeft 0.5s both ease-in;\n  z-index: 9999;\n}\n\n@-webkit-keyframes slideOutLeft {\n  to {\n    -webkit-transform: translateX(-100%);\n    -ms-transform: translateX(-100%);\n    transform: translateX(-100%);\n    transition: opacity(0);\n  }\n}\n\n@keyframes slideOutLeft {\n  to {\n    -webkit-transform: translateX(-100%);\n    -ms-transform: translateX(-100%);\n    transform: translateX(-100%);\n    transition: opacity(0);\n  }\n}\n\n@-webkit-keyframes scaleUp {\n  from {\n    opacity: 0;\n    -webkit-transform: scale(0.8);\n    -ms-transform: scale(0.8);\n    transform: scale(0.8);\n  }\n}\n\n@keyframes scaleUp {\n  from {\n    opacity: 0;\n    -webkit-transform: scale(0.8);\n    -ms-transform: scale(0.8);\n    transform: scale(0.8);\n  }\n}\n\n@-webkit-keyframes fadeIn {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes fadeIn {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -82544,13 +82544,13 @@
 /* 146 */
 /***/ function(module, exports) {
 
-	module.exports = "Welcome !"
+	module.exports = "<div class=\"row\">\r\n\t<div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\r\n\t\t<h2>It works! Welcome to Ekstremedia's Angular-quickstart!</h2>\r\n\t</div>\r\n</div>\r\n"
 
 /***/ },
 /* 147 */
 /***/ function(module, exports) {
 
-	module.exports = "About"
+	module.exports = "<div class=\"row\">\r\n\t<div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\r\n\t\t<h2>About</h2>\r\n\t\tSimple app\r\n\t</div>\r\n</div>\r\n"
 
 /***/ },
 /* 148 */
@@ -82592,7 +82592,7 @@
 /* 149 */
 /***/ function(module, exports) {
 
-	module.exports = "<nav class=\"navbar navbar-inverse navbar-default navbar-static-top\" role=\"navigation\" ng-controller=\"navCtr\"l>\r\n\r\n\t<!-- Brand and toggle get grouped for better mobile display -->\r\n\t<div class=\"navbar-header\">\r\n\t\t<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-ex1-collapse\">\r\n\t\t\t<span class=\"sr-only\">Toggle navigation</span>\r\n\t\t\t<span class=\"icon-bar\"></span>\r\n\t\t\t<span class=\"icon-bar\"></span>\r\n\t\t\t<span class=\"icon-bar\"></span>\r\n\t\t</button>\r\n\t\t<a class=\"navbar-brand\" ui-sref=\"home\">Angular Webpack quickstart</a>\r\n\t</div>\r\n\r\n\t<!-- Collect the nav links, forms, and other content for toggling -->\r\n\t<div class=\"collapse navbar-collapse navbar-ex1-collapse\">\r\n\t\t<ul class=\"nav navbar-nav\">\r\n\t\t\t<li ng-class=\"{ active: isActive('/home') }\"><a ui-sref=\"home\">Home</a></li>\r\n\t\t\t<li ng-class=\"{ active: isActive('/about') }\"><a ui-sref=\"about\">About</a></li>\r\n\t\t</ul>\r\n\r\n\t</div><!-- /.navbar-collapse -->\r\n</nav>"
+	module.exports = "<nav class=\"navbar navbar-inverse navbar-default navbar-static-top\" role=\"navigation\" ng-controller=\"navCtrl\"> \r\n\r\n\t<!-- Brand and toggle get grouped for better mobile display -->\r\n\t<div class=\"navbar-header\">\r\n\t\t<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-ex1-collapse\">\r\n\t\t\t<span class=\"sr-only\">Toggle navigation</span>\r\n\t\t\t<span class=\"icon-bar\"></span>\r\n\t\t\t<span class=\"icon-bar\"></span>\r\n\t\t\t<span class=\"icon-bar\"></span>\r\n\t\t</button>\r\n\t\t<a class=\"navbar-brand\" ui-sref=\"home\">Angular Webpack quickstart</a>\r\n\t</div>\r\n\r\n\t<!-- Collect the nav links, forms, and other content for toggling -->\r\n\t<div class=\"collapse navbar-collapse navbar-ex1-collapse\">\r\n\t\t<ul class=\"nav navbar-nav\">\r\n\t\t\t<li ng-class=\"{ active: isActive('/home') }\"><a ui-sref=\"home\">Home</a></li>\r\n\t\t\t<li ng-class=\"{ active: isActive('/about') }\"><a ui-sref=\"about\">About</a></li>\r\n\t\t</ul>\r\n\r\n\t</div><!-- /.navbar-collapse -->\r\n</nav>"
 
 /***/ },
 /* 150 */
