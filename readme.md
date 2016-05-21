@@ -1,3 +1,4 @@
-#VAClean
+##Angular 1, Webpack, Greensock, Sass quickstart
 
-hi
+By Terje Nesthus (terje@ekstremedia.no)
+
