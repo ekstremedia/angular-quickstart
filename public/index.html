@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en" class="no-js">
 
 <head>
-    <title>VA2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <title>Ekstremedia Angular Quickstart</title>
     <base href="/">
 </head>
 
 <body>
-    <div ui-view></div>
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="vossavisa.js"></script>
+
+    <navbar></navbar>  
+   <div class="container">
+   <div ui-view class="view"></div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="emapp.js"></script>
 </body>
 
 </html>
