@@ -2,7 +2,7 @@
 
 By Terje Nesthus (terje@ekstremedia.no)
 
-This will get an Angular 1.* app up and running fast. It requires [NodeJS](https://nodejs.org) to be pre-installed. 
+This will get an Angular 1.* app up and running fast. It requires [NodeJS](https://nodejs.org) to be pre-installed. It's using webpack and nodejs-modularity, and is es2015-ready.
 
 ####Includes
 * [Angular 1](https://angularjs.org/)
@@ -18,7 +18,10 @@ This will get an Angular 1.* app up and running fast. It requires [NodeJS](https
 
 ####Install
 
-Clone https://github.com/ekstremedia/angular-quickstart
+Open a terminal window, on Windows I can recommend using Git Bash that is included and installed (if you choose to during install) with NodeJS,
+or just use PowerShell or cmd.
+
+Start by cloning my project from https://github.com/ekstremedia/angular-quickstart
 
 `git clone https://github.com/ekstremedia/angular-quickstart`
 
@@ -28,4 +31,28 @@ Go into the folder
 
 Install dependencies
 
-`npm i`
+`npm install`
+
+This will take some minutes as it will install all packages from 'package.json'. 
+
+####Starting
+
+To start a local web server on port 3000, run the command:
+`npm run start`
+
+To start a developer server on port 8080 that will auto-build on save, run:
+
+`npm run startdev` 
+
+Note that this doesnt work if `npm run start` is not running. When running it can be accessed in your browser from the local ip, most likely 
+http://localhost:8080 
+
+####Building
+
+To make a webpack bundle, type: 
+`npm run build`
+
+To make a minified webpack bundle, type:
+`npm run min`
+
+These commands will include everything, bundle it together and respectively then make the emapp.js and emapp.min.js in the 'public/'-folder.
