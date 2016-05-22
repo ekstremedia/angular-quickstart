@@ -16,6 +16,12 @@ myApp.config(['$stateProvider', '$urlRouterProvider', '$locationProvider',
             .state('about', {
                 url: '/about',
                 template: require('ang/views/about.html')
+            })
+
+            .state('todos', {
+                url: '/todos',
+                template: require('ang/views/todos.html'),
+                controller: 'todoCtrl',
             });
 
         // $locationProvider.html5Mode(true);

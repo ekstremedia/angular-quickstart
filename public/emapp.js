@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "16f75bba125ed1dd9730"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "accee24fe77327380ff6"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -13300,7 +13300,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	// import 'masonry';
-	var myApp = _angular2.default.module('myApp', [_angularUiRouter2.default, __webpack_require__(137), "angularMoment", "ui.bootstrap", "ngLocale"]);
+	var myApp = _angular2.default.module('myApp', [__webpack_require__(30), __webpack_require__(137), "angularMoment", "ui.bootstrap", "ngLocale"]);
 
 	exports.default = myApp;
 

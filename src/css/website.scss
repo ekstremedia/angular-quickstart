@@ -1,1 +1,8 @@
 .welcome { color: green; font-size:1.5em; }
+
+.finished {
+	opacity: 0.4;
+}
+.finished.btn {
+	background-color: #CCC;
+}
