@@ -35,7 +35,9 @@ cd angular-quickstart
 
 Install dependencies
 
-```npm install```
+```
+npm install
+```
 
 This will take some minutes as it will install all packages from 'package.json'. 
 
@@ -46,7 +48,9 @@ To start a local web server on port 3000, run the command:
 
 To start a developer server on port 8080 that will auto-build on save, run:
 
-```npm run startdev```
+```
+npm run startdev
+```
 
 Note that this doesnt work if `npm run start` is not running. When running it can be accessed in your browser from the local ip, most likely 
 http://localhost:8080 
@@ -54,9 +58,13 @@ http://localhost:8080
 ####Building
 
 To make a webpack bundle, type: 
-```npm run build```
+```
+npm run build
+```
 
 To make a minified webpack bundle, type:
-```npm run min```
+```
+npm run min
+```
 
 These commands will include everything, bundle it together and respectively then make the emapp.js and emapp.min.js in the 'public/'-folder.
