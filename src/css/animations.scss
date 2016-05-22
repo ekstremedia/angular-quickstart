@@ -7,6 +7,14 @@
     animation: slideOutLeft 0.5s both ease-in;
     z-index: 9999;
 }
+.todoAnim.ng-enter {
+     animation: fadeIn 0.5s both  ease-in;
+   
+}
+.todoAnim.ng-leave {
+        animation: slideOutLeft 0.3s both  ease-in;
+
+}
 
 @keyframes slideOutLeft {
     to {
@@ -32,6 +40,17 @@
     }
     100% {
         opacity: 1;
+    }
+}
+
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
 
