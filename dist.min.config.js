@@ -1,4 +1,3 @@
-// var jQuery = require('jquery');
 
 var webpack = require('webpack');
 var path = require('path');
@@ -32,10 +31,7 @@ module.exports = {
                 test: /\.html$/,
                 loader: 'raw'
             },
-            // {
-            //     test: require.resolve('snapsvg'),
-            //     loader: 'imports-loader?this=>window,fix=>module.exports=0'
-            // },
+
             {
                 test: /\.css$/,
                 loader: 'style!css?sourceMap'

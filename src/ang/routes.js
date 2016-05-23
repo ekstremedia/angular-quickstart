@@ -1,6 +1,4 @@
 import myApp from '../config';
-// 
-// console.log(myApp)
 
 myApp.config(['$stateProvider', '$urlRouterProvider', '$locationProvider',
     function($stateProvider, $urlRouterProvider, $locationProvider) {
@@ -24,7 +22,6 @@ myApp.config(['$stateProvider', '$urlRouterProvider', '$locationProvider',
                 controller: 'todoCtrl',
             });
 
-        // $locationProvider.html5Mode(true);
         $locationProvider.html5Mode({
             enabled: true,
             requireBase: false,
