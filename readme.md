@@ -2,7 +2,9 @@
 
 By Terje Nesthus (terje@ekstremedia.no)
 
-This will get an Angular 1.* app up and running fast. It requires [NodeJS](https://nodejs.org) to be pre-installed. It's using webpack and nodejs-modularity, and will compile javascript and typescript (es2015).
+This will get an Angular 1.* app up and running fast. It features a small todo-app wich also demonstrates both angulars ng-enter and ng-leave animations, as well as Greensocks awesome timeline.
+
+It requires [NodeJS](https://nodejs.org) to be pre-installed. It's using webpack and nodejs-modularity, and will compile javascript and typescript (es2015).
 
 [Demo here: ](http://ekstremedia.no/projects/angular-quickstart/) [http://ekstremedia.no/projects/angular-quickstart/](http://ekstremedia.no/projects/angular-quickstart/)
 
