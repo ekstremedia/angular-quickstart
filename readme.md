@@ -72,3 +72,17 @@ npm run min
 ```
 
 These commands will include everything, bundle it together and respectively then make the emapp.js and emapp.min.js in the 'public/'-folder.
+
+####Structure
+
+Source files are in the `src/` folder.
+
+Check out `index.js` and `config.js` for configuration. Angular module is set in `config.js`.
+
+Angular files are in `src/ang/` (`controllers.js`, `directives.js`, `filters.js`, `locale.js`, `services.js` and `routes.js`). The angular views are found in `src/ang/views/`.
+
+CSS files are found in `src/css/`, check `master.scss`. Wen running a dev server, webpack will compile the scss files and push it into the server, so you dont have to refresh to see the update. Awesome? I know.
+
+In `public/`, the index.html file have set a `<base href="/">` tag, you might want to edit that to your structure. This is to make the html5provider work, so you dont end up with hashbangs (#) in your urls.
+
+Webpack's config files: `dist.min.config.js` for minified, `webpack.prod.config.js` for build and `webpack.config.js` for the server.
