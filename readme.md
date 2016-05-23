@@ -4,6 +4,8 @@ By Terje Nesthus (terje@ekstremedia.no)
 
 This will get an Angular 1.* app up and running fast. It requires [NodeJS](https://nodejs.org) to be pre-installed. It's using webpack and nodejs-modularity, and will compile javascript and typescript (es2015).
 
+[Demo here: ](http://ekstremedia.no/projects/angular-quickstart/todos) [http://ekstremedia.no/projects/angular-quickstart/todos](http://ekstremedia.no/projects/angular-quickstart/todos)
+
 ####Includes
 * [Angular 1](https://angularjs.org/)
 * [angular-ui-router](https://github.com/angular-ui/ui-router)
